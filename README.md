@@ -9,6 +9,7 @@ THe sketches are based on the Machine_USB_v5 Sketch from AGO... the following sk
 
 See attached a components list and schematic. Also an excel file which explains the CAN Message structure.
 You can use only AMATRON, or with AMACLICK and also with Joystick at the same time. Be careful when you use AMACLICK in AUtosection Mode -> turn off AMACLICK or remove it.
+Attention: when using the CANBUS shield and the optional physical switch -> PIN 2,9,19,17 are not available
 
 Be careful when using CANBUS (use the right Pins and do not current them!). Use at your own risk. I tested the code but no guarantee for none complications
 At the moment November 2023 the "marking mode" (Sketch 1) only supports until 7 Sections because the CAN Code for upper sections is unknown.
